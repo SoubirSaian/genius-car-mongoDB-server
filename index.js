@@ -61,6 +61,10 @@ app.get("/",(req,res)=>{
     res.send("server is working smoothly");
 });
 
+app.get('/home',(req,res)=>{
+    res.send("this is hom server");
+});
+
 app.listen(port,()=>{
     console.log("server hitting successfully");
 });
