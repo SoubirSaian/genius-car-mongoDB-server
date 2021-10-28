@@ -1,7 +1,7 @@
 const express = require('express');
-
-// import mongo db 
 const { MongoClient } = require('mongodb');
+// import mongo db 
+
 
 // import cors 
 const cors = require('cors');
@@ -10,7 +10,7 @@ const cors = require('cors');
 require('dotenv').config()
 
 const app = express();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 8000;
 
 // middleware
 app.use(cors());
